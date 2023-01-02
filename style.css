@@ -784,6 +784,7 @@ blockquote {
   margin-top: 0;
   padding: 16px 0 16px 25px;
   border-top: 1px solid #ccc;
+  font-size: 0.9rem;
 }
 
 .topics ul li a{
@@ -805,7 +806,7 @@ blockquote {
   -o-transform: translate(0,-50%);
   transform: translate(0,-50%);
   left: 0;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   font-weight: 600;
 }
 .topics ul li span {
