@@ -330,7 +330,7 @@ blockquote {
   background-color: var(--color-darker);
   height: 2rem;
   width: 2rem;
-  padding: 0.5rem;
+  padding: 0.5rem 0.5rem 0.8rem 0.5rem;
   text-align: center;
   font-size: 2rem;
   line-height: 2rem;
