@@ -325,7 +325,7 @@ blockquote {
   cursor: pointer;
   position: fixed;
   right: 1rem;
-  bottom: 1rem;
+  bottom: 0.5rem;
   z-index: 100;
   background-color: var(--color-darker);
   height: 2rem;

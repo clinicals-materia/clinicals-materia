@@ -19,10 +19,6 @@
 
 :root {
   --color-primary: #fff;
-  --color-primary: #fff;
-  --color-primary: #fff;
-  --color-darker: #001028;
-  --color-darker: #001028;
   --color-darker: #001028;
   /* --color-yellow: #faa356; */
   --color-red: #7e3b36;
@@ -208,6 +204,7 @@ blockquote {
   top: 1rem;
   z-index: 100;
   background-color: var(--color-darker);
+  border-radius: 7px;
 }
 
 [id="main-navigation-toggle"] ~ label span {
@@ -328,12 +325,12 @@ blockquote {
   cursor: pointer;
   position: fixed;
   right: 1rem;
-  bottom: 1rem;
+  bottom: 0.5rem;
   z-index: 100;
   background-color: var(--color-darker);
   height: 2rem;
   width: 2rem;
-  padding: 0.5rem;
+  padding: 0.5rem 0.5rem 0.8rem 0.5rem;
   text-align: center;
   font-size: 2rem;
   line-height: 2rem;
@@ -342,6 +339,7 @@ blockquote {
   text-decoration-line: underline;
   text-decoration-style: double;
   z-index: 98;
+  border-radius: 7px;
 }
 
 .menu {
@@ -601,6 +599,7 @@ blockquote {
   padding: .5rem .5rem;
   margin: 1rem 0;
   background-color: var(--color-darker);
+  border-radius: 7px;
  }
 
 
@@ -788,6 +787,7 @@ blockquote {
   margin-top: 0;
   padding: 16px 0 16px 25px;
   border-top: 1px solid #ccc;
+  font-size: 0.9rem;
 }
 
 .topics ul li a{
@@ -809,7 +809,7 @@ blockquote {
   -o-transform: translate(0,-50%);
   transform: translate(0,-50%);
   left: 0;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   font-weight: 600;
 }
 .topics ul li span {
@@ -933,6 +933,8 @@ footer p{
   background-color: var(--color-darker);
   padding: 5px;
   font-weight: normal;
+  border-radius: 10px;
+  padding: 1rem 2rem 1rem 1rem;
 }
 
 img {
@@ -965,6 +967,7 @@ img {
   opacity: 1;
   transition: .4s;
   text-decoration: none;
+  border-radius: 4px;
 }
 
 .scrollup__icon{
