@@ -373,9 +373,13 @@ blockquote {
 }
 
 .submenu .menu__link {
-  color: var(--color-secondary);
+  color: var(--color-primary);
+  background-color: var(--color-darker);
+  border-radius: 5px;
   font-weight: 700;
 }
+
+
 
 .submenu .menu__link::before, .submenu .menu__link::after {
   display: none;
@@ -495,6 +499,11 @@ blockquote {
   -webkit-transform: translate(0, var(--pull));
           transform: translate(0, var(--pull));
 }
+
+.menu__item .submenu .menu__link:hover {
+  color: var(--color-secondary);
+}
+
 
 .contribute-cta p, .contribute-cta span{
   margin: 0;
