@@ -501,7 +501,7 @@ blockquote {
 }
 
 .menu__item .submenu .menu__link:hover {
-  color: var(--color-secondary);
+  background-color: var(--color-secondary);
 }
 
 
