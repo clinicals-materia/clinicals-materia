@@ -374,8 +374,7 @@ blockquote {
 
 .submenu .menu__link {
   color: var(--color-secondary);
-  font-weight: 500;
-  text-shadow: 1px 1px 0 var(--color-darker);
+  font-weight: 700;
 }
 
 .submenu .menu__link::before, .submenu .menu__link::after {
@@ -488,7 +487,6 @@ blockquote {
   -webkit-transition-delay: 0s;
           transition-delay: 0s;
   text-shadow: none;
-  font-weight: 700;
 }
 
 .menu__item:hover ~ .menu__item > .menu__link {
@@ -1261,3 +1259,9 @@ iframe {
   display: flex;
   justify-content: space-between;
 } 
+
+
+.pdf-embed iframe{
+  width: 100%;
+  margin: auto;
+}
