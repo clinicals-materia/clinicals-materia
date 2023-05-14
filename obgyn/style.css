@@ -516,7 +516,6 @@ blockquote {
   color: var(--color-primary);
   background-color: var(--color-darker);
   padding: 4px;
-  font-weight: 600;
   cursor: pointer;
 }
 
@@ -599,6 +598,10 @@ blockquote {
 
 .contribute p {
   padding-left: 2rem;
+ }
+
+ .contribute img {
+  margin-top: 2rem;
  }
 
 .home-pg div {
@@ -924,6 +927,10 @@ footer p{
   font-weight: bold;
   padding: 0 3px 3px 0;
   border-bottom: 3px solid var(--color-darker);
+}
+
+.trigger:hover {
+  cursor: pointer;
 }
 
 .trigger input[type="checkbox"] + .msg {
