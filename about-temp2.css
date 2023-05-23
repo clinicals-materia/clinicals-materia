@@ -13,6 +13,14 @@
   padding: 50px;
 }
 
+
+.about-container {
+  font-size: .8rem;
+  padding: 0 .8rem 0 .8rem;
+  width: 80%;
+  margin: auto;
+}
+
 .wrapper__emoji {
   min-height: 100px;
 }

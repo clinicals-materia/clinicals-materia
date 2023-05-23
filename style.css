@@ -596,9 +596,14 @@ blockquote {
   text-decoration: none;
  }
 
-.contribute p {
-  padding-left: 2rem;
- }
+.contribute { 
+  font-size: .8rem;
+}
+
+.contribute-container { 
+  width: 80%;
+  margin: auto;
+}
 
  .contribute img {
   margin-top: 2rem;
