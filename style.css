@@ -840,6 +840,12 @@ blockquote {
   color: var(--color-primary);
 }
 
+.topic-group {
+  background-color: #001028;
+  color: #fff;
+  padding: 5px;
+}
+
 .dotted-underline {
   text-decoration: underline;
   text-decoration-style: dotted;
